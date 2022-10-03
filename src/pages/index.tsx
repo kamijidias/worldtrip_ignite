@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import Caracteristicas from "../components/Caracteristicas";
 import Header from "../components/Header";
 import Separador from "../components/Separador";
+import Slider from "../components/Slider";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
       >
         Vamos nessa? <br />Então esolha seu continente
       </Heading>
+
+      <Slider />
 
     </Flex>
   )
